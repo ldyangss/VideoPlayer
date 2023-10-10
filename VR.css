@@ -1,19 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Cute+Font&family=Edu+SA+Beginner:wght@600&family=Noto+Sans+Chorasmian&family=Rubik+Iso&display=swap');
-@font-face {
-    font-family: 'Changa';  /* 给字体起个名字，以便稍后在CSS中引用 */
-    src: url('/Users/danyangli/Library/Fonts/Changa-Bold.ttf') format('truetype');  /* 指定字体文件的路径和格式 */
-}
-
-/*
-背景蓝 #dff4fe
-文字蓝 #b9d9fb
-文字黑 #020001
-文字灰蓝色 #7f9098
-藕粉色 #c8abc2
-灰粉色 #d7cbe0
-浅粉色 #f6dce6
-粉色 #ebbcc6
-*/
 
 body {
     margin: 0;

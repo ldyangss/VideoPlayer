@@ -84,25 +84,20 @@ document.addEventListener('DOMContentLoaded', function () {
         activeVideo.currentTime = seekTime;
     });
 
-    // ap2 video
     ap2btn.addEventListener("click", function() {
-        console.log("ap2btn clicked");  // 添加此行
+        console.log("ap2btn clicked"); 
         ap2container.style.visibility = "visible";
         ap2video.pause();
     });
-    
-    // 关闭视频窗口并返回到主页面
+
     ap2close.addEventListener("click", function() {
         ap2container.style.visibility = "hidden";
         ap2video.currentTime = 0;
-    
-        // 如果视频在全屏模式下，退出全屏
+
         if (document.fullscreenElement) {
             document.exitFullscreen();
         }
     });
-
-
 
 });
 
