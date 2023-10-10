@@ -31,7 +31,7 @@
         <div class="textpart">
             <h1>Loves of Parents</h1>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam facere tempora aliquid architecto ratione cum corporis sit quidem animi. Odio atque quibusdam et in, accusamus consectetur velit qui consequuntur accusantium.</p>
-            <button class="btn" data-videosphere-id="videosphere-ap2video">Watch Now</button>
+            <button id="ap2btn">Watch Now</button>
         </div>
         <img src="Image/lovesofparents.png">
     </div>
@@ -42,12 +42,10 @@
             <a-assets>
                 <video id="gpvideo" src="Video/Avenue Road Memories_Youtube.mp4" preload="auto" crossorigin="anonymous"></video>
                 <video id="ap1video" src="Video/Word on the Water_12082020_YouTube.mp4" preload="auto" crossorigin="anonymous"></video>
-                <video id="ap2video" src="Video/Love of Parents.mp4" preload="auto" crossorigin="anonymous"></video>
             </a-assets>
 
             <a-videosphere id="videosphere-gpvideo" src="#gpvideo" rotation="0 -90 0"></a-videosphere>
             <a-videosphere id="videosphere-ap1video" src="#ap1video" rotation="0 -90 0"></a-videosphere>
-            <a-videosphere id="videosphere-ap2video" src="#ap2video" rotation="0 -90 0"></a-videosphere>
         </a-scene>
 
         <div class="controls">
@@ -66,6 +64,11 @@
             </div>
         </div>
         <button id="close"><i class="fa-regular fa-circle-xmark"></i></button>
+    </div>
+
+    <div class="ap2container">
+        <video src="Video/Love of Parents.mp4" controls></video>
+        <button id="ap2close"><i class="fa-solid fa-xmark"></i></button>
     </div>
 </body>
 </html>

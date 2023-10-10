@@ -52,7 +52,7 @@ h1, p {
     color: #7f9098;
 }
 
-.btn {
+.btn, #ap2btn {
     margin: 10px;
     padding: 10px;
     background-color: #b9d9fb;
@@ -148,6 +148,34 @@ h1, p {
 }
 
 #close {
+    background-color: #f6dce6;
+    border-color: #c8abc2;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+    cursor: pointer
+}
+
+.ap2container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    visibility: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.ap2container video {
+    position: relative;
+    max-width: 80vw;
+}
+
+#ap2close {
     background-color: #f6dce6;
     border-color: #c8abc2;
     border-radius: 5px;
